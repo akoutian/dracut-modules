@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/bin/bash
+
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 # Set CPU power limits using the intel-rapl sysfs interface. The values are
 # specific to the ThinkPad T420 and the Intel i7-3940XM CPU. The reason for

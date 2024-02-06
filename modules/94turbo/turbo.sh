@@ -1,4 +1,6 @@
-#!/bin/sh
+#!/bin/bash
+
+# SPDX-License-Identifier: GPL-3.0-or-later
 
 # Set programmable turbo boost ratio limits via MSR if supported.
 

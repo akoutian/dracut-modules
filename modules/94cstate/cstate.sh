@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 # Limit processor package C-State to 2. Workaround for
 # https://ticket.coreboot.org/issues/121. Requires MSR_PKG_CST_CONFIG_CONTROL
 # to be unlocked in firmware. This unfortunately results in ~0.7W extra power
