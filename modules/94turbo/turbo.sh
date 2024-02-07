@@ -4,8 +4,8 @@
 
 # Set programmable turbo boost ratio limits via MSR if supported.
 
-# Corresponds to x37/x39/x40/x40 multiplier for 1/2/3/4 active cores respectively.
-LIMITS=0x25272828
+# Corresponds to x39/x40/x41/x41 multiplier for 4/3/2/1 active cores respectively.
+LIMITS=0x27282929
 
 MSR_PLATFORM_INFO=0xce
 MSR_TURBO_RATIO_LIMIT=0x1ad
